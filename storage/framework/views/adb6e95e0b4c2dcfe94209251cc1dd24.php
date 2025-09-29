@@ -62,4 +62,4 @@
         <p>Codeflix todos os direitos reservados &copy;</p>
     </footer>
 </body>
-</html><?php /**PATH /Users/mac/Desktop/ETEC/codeflix-site/resources/views/template.blade.php ENDPATH**/ ?>
+</html><?php /**PATH C:\Users\Aluno\Downloads\codeflix-site\resources\views/template.blade.php ENDPATH**/ ?>
