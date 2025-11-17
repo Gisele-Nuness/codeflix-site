@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.section {
+    display: flex;
+    max-width: 800px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 160px;
+}
+
+.descricao {
+    line-height: 24px;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 800px;
+    
+}

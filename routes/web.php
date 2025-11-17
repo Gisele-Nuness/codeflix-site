@@ -9,6 +9,7 @@ use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\DashboardController;
 
 
+Route::get('/descHome', 'App\Http\Controllers\DashboardController@showDesc');
 Route::get('/download-filmes-csv', 'App\Http\Controllers\FilmeController@download')->name('filmes.csv');
 Route::get('/download-contatos-csv', 'App\Http\Controllers\ContatoController@download')->name('contatos.csv');
 

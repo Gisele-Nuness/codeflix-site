@@ -68,4 +68,9 @@ class DashboardController extends Controller
             'totalAnimacao' => $generos->firstWhere('nome', 'Animação')['total'],
         ]);
     }
+
+    public function showDesc()
+    {
+        return view('descricaoHome');
+    }
 }
